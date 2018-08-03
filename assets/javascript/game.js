@@ -50,6 +50,7 @@ document.onkeyup = function (event) {
 
 var html =
 
+
 "<h1>The Psychic Game</h1>" + "<h8>You get 9 guesses to get the right answer!</h8>" +
 "<h2>Guess what letter I'm thinking of!</h2>" +
 "<h3>Your Guess: " + 
@@ -69,6 +70,8 @@ loggedGuesses +
 "</h7>"
 ;
 document.querySelector('#psychicgame').innerHTML = html;
+
+
 }
     // document.getElementById("userGuess").textContent=userGuess
     // document.getElementById("loggedGuesses").textContent=loggedGuesses
