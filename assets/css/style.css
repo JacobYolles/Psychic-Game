@@ -1,0 +1,47 @@
+/*Styesheet for Psychic Game*/
+
+/*Body Style*/
+body {
+    background: #6cadb6;
+    Font-Family: Verdana, Arial, Helvetica, sans-serif
+}
+    /*title*/
+    h1 {color: black;
+    Font-Family:Verdana,Arial,Helvetica,sans-serif;
+    Font-Size:35}
+    /*Guess What Letter I'm thinking of style*/
+    h2 {
+    color:blue;
+    Font-Family: Verdana, Arial, Helvetica, sans-serif;
+    Font-Size: 25px;
+}
+/* Your Guess style */
+    h3 {
+        color:blue;
+        Font-Family: Verdana, Arial, Helvetica, sans-serif;
+    Font-Size: 20px;
+}
+/*Total wins style*/
+h4 {
+    color:blue;
+    Font-Family: Verdana, Arial, Helvetica, sans-serif;
+Font-Size: 20px;
+}
+/*Total losses*/
+h5 {
+    color:blue;
+    Font-Family: Verdana, Arial, Helvetica, sans-serif;
+Font-Size: 20px;
+}
+/*Guesses Left*/
+h6 {
+    color:blue;
+    Font-Family: Verdana, Arial, Helvetica, sans-serif;
+Font-Size: 20px;
+}
+/* Your guesses so far.*/
+h7 {
+    color: black;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+Font-Size: 20px;
+}

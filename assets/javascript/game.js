@@ -50,23 +50,23 @@ document.onkeyup = function (event) {
 
 var html =
 
-"<h1>The Psychic Game</h1>" + 
-"<p>Guess what letter I'm thinking of!</p>" +
-"<p>Your Guess: " + 
+"<h1>The Psychic Game</h1>" + "<h8>You get 9 guesses to get the right answer!</h8>" +
+"<h2>Guess what letter I'm thinking of!</h2>" +
+"<h3>Your Guess: " + 
 userGuess + 
-"</p>" +
-"<p>Total Wins: " + 
+"</h3>" +
+"<h4>Total Wins: " + 
 wins + 
-"</p>" +
-"<p>Total Losses: " + 
+"</h4>" +
+"<h5>Total Losses: " + 
 losses + 
-"</p>" +
-"<p>Guesses Left: " + 
+"</h5>" +
+"<h6>Guesses Left: " + 
 guesses + 
-"</p>" +
-"<p>Your Guesses so far: " +
+"</h6>" +
+"<h7>Your Guesses so far: " +
 loggedGuesses +
-"</p>"
+"</h7>"
 ;
 document.querySelector('#psychicgame').innerHTML = html;
 }
